@@ -27,7 +27,7 @@
 }
 .modalActive{
     display: block;
-    position: fixed;
+    /* position: fixed;*/
 }
 .modal__wrapp{
     width: 100%;
