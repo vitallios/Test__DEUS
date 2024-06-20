@@ -77,9 +77,11 @@ productprevBtn.addEventListener("click", () => {
 
  btnModal.forEach(btn => {
   btn.addEventListener("click", () =>  {
-    console.dir(btn);
+    console.dir(document.querySelector("body"));
+    if (document.querySelector("body").classList) {
+      document.querySelector("body").classList.add("overfHidden");
+    }
     modal.classList.add("modalActive");
-    document.querySelector("body").classList.toggle("overfHidden");
   })
 });
 
