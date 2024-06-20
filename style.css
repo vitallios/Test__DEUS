@@ -12,6 +12,11 @@
 }
 
 
+.home{
+    position: relative;
+    overflow-x: hidden;
+}
+
 .modal{
     position: absolute;
     z-index: 1001;
