@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_media.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="desctop__header">
+    <div class="container desctop__wrapp">
+      <div class="header">
+        <div class="header__menu-wrap">
+          <a href="/" class="header__logo">
+            <img src="./assets/svg/Vector (24).svg" alt="logo">
+          </a>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__menu-li">
+                <button class="" id="header__nav__btn">
+                  Продукт
+                  <span>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 1L5 5L1 1" stroke="#202021" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">Платформа</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">Кейсы</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">Партнерам</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">Блог</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">О компании</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+            <button class="header__btn btn btnModal">Свяжитесь с нами</button>
+            <div class="mobailHeader__menu-btns">
+              <button id="mobailHeader__menu-open" class="menuDefault">
+                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="43" height="43" fill="white" />
+                  <rect x="11" y="11" width="7" height="7" fill="url(#paint0_linear_7515_1088)" />
+                  <rect x="25" y="11" width="7" height="7" fill="url(#paint1_linear_7515_1088)" />
+                  <rect x="25" y="25" width="7" height="7" fill="url(#paint2_linear_7515_1088)" />
+                  <rect x="11" y="25" width="7" height="7" fill="url(#paint3_linear_7515_1088)" />
+                  <defs>
+                    <linearGradient id="paint0_linear_7515_1088" x1="11" y1="14.5" x2="18" y2="14.5"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#0056FE" />
+                      <stop offset="1" stop-color="#19BFEA" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_7515_1088" x1="25" y1="14.5" x2="32" y2="14.5"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#0056FE" />
+                      <stop offset="1" stop-color="#19BFEA" />
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_7515_1088" x1="25" y1="28.5" x2="32" y2="28.5"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#0056FE" />
+                      <stop offset="1" stop-color="#19BFEA" />
+                    </linearGradient>
+                    <linearGradient id="paint3_linear_7515_1088" x1="11" y1="28.5" x2="18" y2="28.5"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#0056FE" />
+                      <stop offset="1" stop-color="#19BFEA" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </button>
+              <button id="mobailHeader__menu-clous">
+                <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="25.4558" height="23" transform="translate(1)" fill="white" />
+                  <rect x="1" y="22.627" width="32" height="4" transform="rotate(-45 1 22.627)"
+                    fill="url(#paint0_linear_7519_102)" />
+                  <rect x="3" width="32" height="4" transform="rotate(45 3 0)" fill="url(#paint1_linear_7519_102)" />
+                  <defs>
+                    <linearGradient id="paint0_linear_7519_102" x1="2.50833" y1="22.627" x2="6.15236" y2="34.5038"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#39C7EC" />
+                      <stop offset="0.0001" stop-color="#39C7EC" />
+                      <stop offset="1" stop-color="#0050EC" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_7519_102" x1="4.50833" y1="-2.64019e-07" x2="8.15236" y2="11.8768"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#39C7EC" />
+                      <stop offset="0.0001" stop-color="#39C7EC" />
+                      <stop offset="1" stop-color="#0050EC" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </nav>
+        </div>
+        <div class="header__dopMenu ">
+          <ul class="header__dopMenu-menu ">
+            <li class="header__dopMenu-li">
+              <a href="#" class="header__dopMenu-item">
+                <div class="header__dopMenu-wrap">
+                  <h3>Продажи на маркетплейсах</h3>
+                  <p>Автоматизация продаж на универсальных маркетплейсах</p>
+                </div>
+              </a>
+            </li>
+            <li class="header__dopMenu-li">
+              <a href="#" class="header__dopMenu-item">
+                <div class="header__dopMenu-wrap">
+                  <h3>Продажи на маркетплейсах</h3>
+                  <p>Автоматизация продаж на универсальных маркетплейсах</p>
+                </div>
+              </a>
+            </li>
+            <li class="header__dopMenu-li">
+              <a href="#" class="header__dopMenu-item">
+                <div class="header__dopMenu-wrap">
+                  <h3>Продажи на маркетплейсах</h3>
+                  <p>Автоматизация продаж на универсальных маркетплейсах</p>
+                </div>
+              </a>
+            </li>
+            <li class="header__dopMenu-li">
+              <a href="#" class="header__dopMenu-item">
+                <div class="header__dopMenu-wrap">
+                  <h3>Продажи на маркетплейсах</h3>
+                  <p>Автоматизация продаж на универсальных маркетплейсах</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="home">
+      <div class="container">
+        <!--  -->
+        <div class="mobailHeader__menu-content mobailMenu">
+          <div class="mobailMenu__container">
+            <div class="mobailMenu__list">
+              <button class="mobailMenu__accardion">
+                Продукты
+              </button>
+              <div class="mobailMenu__accardion-content">
+                <ul>
+                  <li><a href="#">Продажи на маркетплейсах</a></li>
+                  <li><a href="#">Интернет-магазин</a></li>
+                  <li><a href="#">Нишевые маркетплейсы</a></li>
+                  <li><a href="#">Шина данных (ESB)</a></li>
+                </ul>
+              </div>
+              <div class="mobailMenu__list-link">
+                <ul>
+                  <li><a href="#">Платформа</a></li>
+                  <li><a href="#">Кейсы</a></li>
+                  <li><a href="#">Партнёрам</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Блог</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+              <button class="btn btnModal" id="mobailMenuBtn">Свяжитесь с нами</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal__wrapp">
+            <div class="modalForm">
+              <form >
+                <button id="modal__clous">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.2">
+                    <path d="M30 10L10 30" stroke="#202021"/>
+                    <path d="M10 10L30 30" stroke="#202021"/>
+                    </g>
+                    </svg>                    
+                </button>
+                <h2>Свяжитесь с нами</h2>
+                <input type="text" name="" placeholder="Имя" id="">
+                <input type="tel" name="" placeholder="Телефон" id="">
+                <input type="email" name="" placeholder="Email" id="">
+                <input type="button" name="" value="Отправить" id="">
+                <span>Нажимая «Отправить» вы соглашаетесь с Политикой конфиденциальности</span>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <div class="carousel">
+          <div class="track">
+            <div class=slide>
+              <!-- slide - Card -->
+              <div class="slide__text">
+                <h2>Заголовок для слайдера</h2>
+                <h3>Краткое описание УТП продукта, максимально две строки текста</h3>
+                <button class="btn btnModal">Смотреть решение</button>
+              </div>
+              <div class="slide__image">
+                <img src="./assets/image/Group 28688.png" alt="banner-image">
+              </div>
+              <!-- slide - Card -->
+            </div>
+            <div class=slide>
+              <!-- slide - Card -->
+              <div class="slide__text">
+                <h2>Заголовок для слайдера</h2>
+                <h3>Краткое описание УТП продукта, максимально две строки текста</h3>
+                <button class="btn btnModal">Смотреть решение</button>
+              </div>
+              <div class="slide__image">
+                <img src="./assets/image/Group 28688.png" alt="banner-image">
+              </div>
+              <!-- slide - Card -->
+            </div>
+            <div class=slide>
+              <!-- slide - Card -->
+              <div class="slide__text">
+                <h2>Заголовок для слайдера</h2>
+                <h3>Краткое описание УТП продукта, максимально две строки текста</h3>
+                <button class="btn btnModal">Смотреть решение</button>
+              </div>
+              <div class="slide__image">
+                <img src="./assets/image/Group 28688.png" alt="banner-image">
+              </div>
+              <!-- slide - Card -->
+            </div>
+          </div>
+          <div class="slide__btns">
+            <button class="prev">
+              <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_i_7543_848)">
+                  <path d="M17 6.5H2M2 6.5L7.27778 1M2 6.5L7.27778 12" stroke="url(#paint0_linear_7543_848)"
+                    stroke-width="2" />
+                </g>
+                <defs>
+                  <filter id="filter0_i_7543_848" x="0.613281" y="0.308594" width="17.3867" height="13.3828"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="1" dy="1" />
+                    <feGaussianBlur stdDeviation="0.5" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.295711 0 0 0 0 0.591422 0 0 0 0.4 0" />
+                    <feBlend mode="multiply" in2="shape" result="effect1_innerShadow_7543_848" />
+                  </filter>
+                  <linearGradient id="paint0_linear_7543_848" x1="17" y1="6.5" x2="2" y2="6.5"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0056FE" />
+                    <stop offset="1" stop-color="#19BFEA" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </button>
+            <button class="next">
+              <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_i_7543_4)">
+                  <path d="M0 6.5H15M15 6.5L9.72222 1M15 6.5L9.72222 12" stroke="url(#paint0_linear_7543_4)"
+                    stroke-width="2" />
+                </g>
+                <defs>
+                  <filter id="filter0_i_7543_4" x="0" y="0.308594" width="17.3867" height="13.3828"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="1" dy="1" />
+                    <feGaussianBlur stdDeviation="0.5" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.295711 0 0 0 0 0.591422 0 0 0 0.4 0" />
+                    <feBlend mode="multiply" in2="shape" result="effect1_innerShadow_7543_4" />
+                  </filter>
+                  <linearGradient id="paint0_linear_7543_4" x1="0" y1="6.5" x2="15" y2="6.5"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0056FE" />
+                    <stop offset="1" stop-color="#19BFEA" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!--  -->
+    <section class="product">
+      <div class="container">
+        <div class="product__content">
+          <div class="product__content-text">
+            <h1>
+              <span>
+                Название продукта
+              </span>
+              для средних и крупных торговых и производственных компаний
+            </h1>
+          </div>
+
+          <div class="product__carousel">
+            <div class="product__track">
+              <div class="product__slide">
+                <div class="product__slide-content">
+                  <div class="product__slide-img">
+                    <img src="./assets/image/productSlid-1.png" alt="imgSlider">
+                  </div>
+                  <p>Автоматизация продаж <span>увеличивает скорость </span>обслуживания клиентов <span>на 42%</span>
+                  </p>
+                </div>
+              </div>
+              <div class="product__slide">
+                <div class="product__slide-content">
+                  <div class="product__slide-img">
+                    <img src="./assets/image/productSlid-2.png" alt="imgSlider">
+                  </div>
+                  <p>Автоматизация продаж <span>увеличивает скорость </span>обслуживания клиентов <span>на 42%</span>
+                  </p>
+                </div>
+              </div>
+              <div class="product__slide">
+                <div class="product__slide-content">
+                  <div class="product__slide-img">
+                    <img src="./assets/image/productSlid-3.png" alt="imgSlider">
+                  </div>
+                  <p>Автоматизация продаж <span>увеличивает скорость </span>обслуживания клиентов <span>на 42%</span>
+                  </p>
+                </div>
+              </div>
+              <div class="product__slide">
+                <div class="product__slide-content">
+                  <div class="product__slide-img">
+                    <img src="./assets/image/productSlid-4.png" alt="imgSlider">
+                  </div>
+                  <p>Автоматизация продаж <span>увеличивает скорость </span>обслуживания клиентов <span>на 42%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="product__slider-nav">
+              <div class="product__btns">
+                <button class="product__prev">
+                  <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i_7543_848)">
+                      <path d="M17 6.5H2M2 6.5L7.27778 1M2 6.5L7.27778 12" stroke="url(#paint0_linear_7543_848)"
+                        stroke-width="2" />
+                    </g>
+                    <defs>
+                      <filter id="filter0_i_7543_848" x="0.613281" y="0.308594" width="17.3867" height="13.3828"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dx="1" dy="1" />
+                        <feGaussianBlur stdDeviation="0.5" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.295711 0 0 0 0 0.591422 0 0 0 0.4 0" />
+                        <feBlend mode="multiply" in2="shape" result="effect1_innerShadow_7543_848" />
+                      </filter>
+                      <linearGradient id="paint0_linear_7543_848" x1="17" y1="6.5" x2="2" y2="6.5"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#0056FE" />
+                        <stop offset="1" stop-color="#19BFEA" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </button>
+                <button class="product__next">
+                  <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i_7543_4)">
+                      <path d="M0 6.5H15M15 6.5L9.72222 1M15 6.5L9.72222 12" stroke="url(#paint0_linear_7543_4)"
+                        stroke-width="2" />
+                    </g>
+                    <defs>
+                      <filter id="filter0_i_7543_4" x="0" y="0.308594" width="17.3867" height="13.3828"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dx="1" dy="1" />
+                        <feGaussianBlur stdDeviation="0.5" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.295711 0 0 0 0 0.591422 0 0 0 0.4 0" />
+                        <feBlend mode="multiply" in2="shape" result="effect1_innerShadow_7543_4" />
+                      </filter>
+                      <linearGradient id="paint0_linear_7543_4" x1="0" y1="6.5" x2="15" y2="6.5"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#0056FE" />
+                        <stop offset="1" stop-color="#19BFEA" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="devOpsion">
+      <div class="container">
+        <div class="devOpsion__grid">
+          <div class="devOpsion__item">
+            <div>
+              <img src="./assets/image/Dev_card.png" alt="">
+            </div>
+            <p>
+              Разработка <br>и автоматизация интернет-магазинов, маркетплейсов
+            </p>
+          </div>
+          <div class="devOpsion__item">
+            <div>
+              <img src="./assets/image/Dev_site.png" alt="">
+            </div>
+
+            <p>
+              Проекты любой сложности и конфигурации с помощью модульной архитектуры
+            </p>
+          </div>
+          <div class="devOpsion__item">
+            <div>
+              <img src="./assets/image/Dev_list.png" alt="">
+            </div>
+            <p>
+              ИТ-экспертиза и бизнес-консалтинг для достижения поставленных целей
+            </p>
+          </div>
+          <div class="devOpsion__item">
+            <div>
+              <img src="./assets/image/Dev_home.png" alt="">
+            </div>
+            <p>
+              Используем две модели развертывания SaaS
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner__wrap">
+          <div class="banner__text">
+            <h2>Новые тренды и инструменты для развития бизнеса</h2>
+            <span>Персональная эксперт-сессия</span>
+          </div>
+          <div class="banner__btn">
+            <button class="btnModal">Получить бесплатно</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="eCom">
+      <div class="container">
+        <div class="eCom__wrap">
+          <div class="eCom__text">
+            <h2>Продукты для <span>eCom</span></h2>
+            <p>Используйте готовые продукты от нашей компании или закажите персональную разработку.</p>
+          </div>
+          <div class="eCom__grid">
+            <div class="eCol__item">
+              <img src="./assets/image/eCom__carts.png" alt="">
+              <h3>Продажи на маркетплейсах</h3>
+              <p>Автоматизация продаж на универсальных маркетплейсах</p>
+            </div>
+            <div class="eCol__item">
+              <img src="./assets/image/eCom__btn.png" alt="">
+              <h3>Интернет-магазин</h3>
+              <p>Автоматизация онлайн-продаж для вашего интернет-магазина</p>
+            </div>
+            <div class="eCol__item">
+              <img src="./assets/image/eCom__card.png" alt="">
+              <h3>Нишевые маркетплейсы</h3>
+              <p>Управление собственным маркетплейсом</p>
+            </div>
+            <div class="eCol__item">
+              <img src="./assets/image/eCom__cloud.png" alt="">
+              <h3>Шина данных (ESB)</h3>
+              <p>Управление обменом данных и интеграции</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="startProject">
+      <div class="container">
+        <div class="startProject__wrap">
+          <h2>Запустим проект <span>быстро, эффективно, с гарантией</span></h2>
+          <div class="startProject__grid">
+            <div class="startProject__item">
+              <div class="startProject__img">
+                <img src="./assets/image/startProject__site.png" alt="">
+              </div>
+              <div class="startProject__text">
+                <h3>Платформа</h3>
+                <p>
+                  Разработка и кастомизация готовых B2B- и B2C-решений на базе eCom платформы Кипу под потребности
+                  бизнеса. Быстрый запуск MVP от 2-4 месяцев</p>
+              </div>
+            </div>
+            <div class="startProject__item">
+              <div class="startProject__img">
+                <img src="./assets/image/startProject__search.png" alt="">
+              </div>
+              <div class="startProject__text">
+                <h3>Экспертиза</h3>
+                <p>
+                  Команда Кипу состоит из экспертов в области разработки eCom решений, практический опыт каждого из
+                  членов команды составляет более 10 лет, а общая насмотренность превышает 250 проектов
+                </p>
+              </div>
+            </div>
+            <div class="startProject__item">
+              <div class="startProject__img">
+                <img src="./assets/image/startProject__mask.png" alt="">
+              </div>
+              <div class="startProject__text">
+                <h3>Методология</h3>
+                <p>
+                  Каждый наш проект начинается, прежде всего, с разработки бизнес-логики, на базе которой строится
+                  ИТ-система. Расчет экономической модели проекта происходит уже на этапе исследования
+                </p>
+              </div>
+            </div>
+            <div class="startProject__item">
+              <div class="startProject__img">
+                <img src="./assets/image/startProject__pipl.png" alt="">
+              </div>
+              <div class="startProject__text">
+                <h3>Команда</h3>
+                <p>
+                  Реализуем проекты любой сложности за счет горизонтального масштабирования ресурсов разработки с
+                  помощью партнерской программы
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="btnModal">Обсудить ваш проект</button>
+        </div>
+      </div>
+    </section>
+    <section class="eCommers">
+      <div class="container">
+        <div class="eCommers__wrap">
+          <h2><span>Какие задачи</span> решаем в eCommerce</h2>
+          <div class="eCommers__tags">
+            <button>Автоматизация бизнес-процессов</button>
+            <button>Создание B2B-портала</button>
+            <button>Разработка интернет-магазина</button>
+            <button>Управление товарными данными</button>
+            <button>Маркетинговые активности</button>
+            <button>Интеграция с маркетплейсами</button>
+            <button>Медиа-контент</button>
+            <button>Управление отзывами</button>
+            <button>Работа с заказами</button>
+            <button>Доставка и возвраты</button>
+            <button>Остатки и ценообразование</button>
+            <button>Взаимоотношения с клиентами</button>
+            <button>Аналитика</button>
+            <button>Нишевые маркетплейсы</button>
+            <button>Обмен данными</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whyMy">
+      <div class="container">
+        <div class="whyMy__wrap">
+          <h2>Почему <span>Мы</span></h2>
+          <div class="whyMy__opsion">
+            <div class="whyMy__nav">
+              <div class="whyMy__scrol">
+                <button class="active">Ключевые преимущества</button>
+                <button>Специально для eCommerce</button>
+                <button>3 вид преимуществ</button>
+              </div>
+            </div>
+            <div class="whyMy__screens">
+              <div class="whyMy__screen">
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Российское ПО</h3>
+                    <p>Свидетельство о регистрации Минцифры № АО-20221221-11257705008-3</p>
+                  </div>
+                  <div class="whyMy__text__img">
+                    <img src="./assets/image/whyMy__clous.png" alt="">
+                  </div>
+                </div>
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Бизнес-консалтинг</h3>
+                    <p>Экономическая эффективность проектов</p>
+                  </div>
+                  <div class="whyMy__text__img">
+                    <img src="./assets/image/whyMy__rait.png" alt="">
+                  </div>
+                </div>
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Онбординг и документация</h3>
+                    <p>Инструменты для успешного старта работ</p>
+                  </div>
+                  <div class="whyMy__text__img">
+                    <img src="./assets/image/whyMy__list.png" alt="">
+                  </div>
+                </div>
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Техническая поддержка 24/7</h3>
+                    <p>Обеспечение бесперебойной работы системы</p>
+                  </div>
+                  <div class="whyMy__text__img">
+                    <img src="./assets/image/whyMy__mus.png" alt="">
+                  </div>
+                </div>
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Скорость работы</h3>
+                    <p>Моментальная загрузка страниц с любым количество SKU</p>
+                  </div>
+                  <div class="whyMy__text__img">
+
+                    <img src="./assets/image/whyMy__time.png" alt="">
+                  </div>
+                </div>
+                <div class="whyMy__screen-item">
+                  <div class="whyMy__text">
+                    <h3>Актуальность и развитие</h3>
+                    <p>Улучшение функциональности, обеспечение безопасности, устранение ошибок</p>
+                  </div>
+                  <div class="whyMy__text__img">
+
+                    <img src="./assets/image/whyMy__sect.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="whyMy__item"></div>
+              <div class="whyMy__item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner eConmmersBanner">
+      <div class="container">
+        <div class="banner__wrap">
+          <div class="banner__text">
+            <h2>Новые eCom тренды и инструменты для развития бизнеса</h2>
+            <span>Персональная эксперт-сессия</span>
+          </div>
+          <div class="banner__btn">
+            <button class="btnModal">Получить бесплатно</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="container">
+        <div class="partner__wrap">
+          <h2>С нами <span>работают</span></h2>
+          <div class="partner__lists">
+            <div class="partner__item">
+              <img src="./assets/image/partners__auto.png" alt="">
+              <img src="./assets/image/partners__exp.png" alt="">
+              <img src="./assets/image/partners__alert.png" alt="">
+              <img src="./assets/image/partners__agro.png" alt="">
+              <img src="./assets/image/partners__olimp.png" alt="">
+              <img src="./assets/image/partners__modul.png" alt="">
+              <img src="./assets/image/partners__vink.png" alt="">
+            </div>
+            <div class="partner__nav">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="itBanner">
+      <div class="container">
+        <div class="itBanner__wrap">
+          <div class="itBanner__content">
+            <div class="itBanner__text">
+              <div class="itBanner__title">
+                <h2>Участник реестра аккредитованных ИТ-компаний</h2>
+                <p>eCom платформа является участником реестра аккредитованных ИТ-компаний</p>
+              </div>
+              <div class="itBanner__info">
+                <button>
+                  <img src="./assets/image/itBanner__btn-img.png" alt="">
+                  <span></span>
+                  <p>Свидетельство о регистрации Минцифры ФФ-11222333-444555666-7</p>
+                </button>
+              </div>
+            </div>
+            <div class="itBanner__img">
+              <img src="./assets/image/orel.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__wrap">
+          <div class="about__item myBlok">
+            <div class="myBlok__title">
+              <h2>Наш блог</h2>
+              <a href="#">Все статьи</a>
+            </div>
+            <ul>
+              <li><a href="#">Как создать крупный интернет-проект с масштабными задачами — 3 этапа</a></li>
+              <li><a href="#">Как настроить управлением рабочим местом пользователя</a></li>
+              <li><a href="#">Топ-5 преимуществ IP-телефонии</a></li>
+              <li><a href="#">Шина для обмена данных – что это такое и как работает</a></li>
+            </ul>
+          </div>
+          <div class="about__item pressaBlok">
+            <h2>Пресса о нас</h2>
+            <div class="pressaBlok__links">
+              <a href="#"><img src="./assets/image/pressa__tc.png" alt=""></a>
+              <a href="#"><img src="./assets/image/pressa__vk.png" alt=""></a>
+              <a href="#"><img src="./assets/image/pressa__rbk.png" alt=""></a>
+              <a href="#"><img src="./assets/image/pressa__forbs.png" alt=""></a>
+              <a href="#"><img src="./assets/image/pressa__bbc.png" alt=""></a>
+            </div>
+            <h3>
+              Лучший молодежный IT стартап-проект, который выстрелил на весь интернет
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__menu">
+            <div class="footer__logo">
+              <img src="./assets/image/logo__footer.png" alt="">
+            </div>
+            <div class="footer__productList">
+              <ul>
+                <li>
+                  <h3>Продукты</h3>
+                </li>
+                <li><a href="#">Продажи на маркетплейсах</a></li>
+                <li><a href="#">Интернет-магазин</a></li>
+                <li><a href="#">Нишевые маркетплейсы</a></li>
+                <li><a href="#">Шина данных</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__menu__2">
+            <div class="footer__links">
+              <ul>
+                <li><a href="">Платформа</a></li>
+                <li><a href="">Кейсы</a></li>
+                <li><a href="">Партнерам</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Блог</a></li>
+                <li><a href="">О компании</a></li>
+                <li><a href="">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="footer__contacts">
+              <a href="tel:+76667772211">+7 666 777 22 11</a>
+              <a href="mailto:test@mail.ru">test@mail.ru</a>
+            </div>
+          </div>
+          <div class="footer__config">
+            <button>Политика конфиденциальности</button>
+            <div class="footer__config-web">
+              <span>Разработка</span>
+              <img src="./assets/image/logo__footer.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
