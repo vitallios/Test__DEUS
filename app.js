@@ -77,6 +77,7 @@ productprevBtn.addEventListener("click", () => {
 
  btnModal.forEach(btn => {
   btn.addEventListener("click", () =>  {
+    console.dir(btn);
     modal.classList.add("modalActive");
     document.querySelector("body").classList.toggle("overfHidden");
   })
@@ -86,20 +87,7 @@ document.querySelector('.modal').classList.remove("modalActive");
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
 
-
-})
-
-setInterval(() =>{  
-  const deadline = new Date(2024, 11);
-  const diff = deadline - new Date();
-  const seconds = diff > 0 ? Math.floor(diff / 1000) % 60 : 0;
-  // console.dir(seconds);
-  if (seconds === 10) {
-    console.log(document);
-  }
-}, 10)
 
 //
 // for (let i = 0; i < productNUM_SLIDES; i++) {

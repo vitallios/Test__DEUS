@@ -13,7 +13,6 @@
 
 
 .home{
-    position: relative;
     overflow-x: hidden;
 }
 
@@ -28,6 +27,7 @@
 }
 .modalActive{
     display: block;
+    position: fixed;
 }
 .modal__wrapp{
     width: 100%;
@@ -148,6 +148,7 @@ option {
 
 .overfHidden {
     overflow: hidden;
+    position: fixed;
 }
 
 .btn {
