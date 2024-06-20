@@ -1114,23 +1114,7 @@ margin-top: 20px;
     width: 365px;
     height: 166px;
 }
-.partner__nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-.partner__nav>span{
-    width: 32px;
-    height: 32px;
-    background-color: var(--c-textWhite);
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-}
+
 
 /*  */
 .itBanner{
